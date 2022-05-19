@@ -132,10 +132,68 @@
     }
   },
   "uniqueValues": {
-    "firmware_version": [],
-    "category": [],
-    "author": [],
-    "keywords": []
+    "firmware_version": [
+      "4.3"
+    ],
+    "category": [
+      "MODES",
+      "OTHER",
+      "RATES"
+    ],
+    "author": [
+      "Rob Haswell / Mopatop"
+    ],
+    "keywords": [
+      "base",
+      "modes",
+      "rates"
+    ]
   },
-  "presets": []
+  "presets": [
+    {
+      "fullPath": "presets/4.3/modes/defaults.txt",
+      "hash": "c0a3489ae5b39fbc39a085951134c71b43a1c746a2c197cad8e61559418a1397",
+      "title": "Mopatop's modes",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "modes"
+      ],
+      "author": "Rob Haswell / Mopatop",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/base.txt",
+      "hash": "75cf4a8f8c9eca0e25b782cdbd871aa2760f990fed23c1e52dc228bc2027d875",
+      "title": "Base quad configuration",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "base"
+      ],
+      "author": "Rob Haswell / Mopatop",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rates/defaults.txt",
+      "hash": "f903b17f5c89003cb93c65d89e9b7600dbc78b9c01de9e033645fcec5162d272",
+      "title": "Mopatop's rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "rates"
+      ],
+      "author": "Rob Haswell / Mopatop",
+      "priority": 10000
+    }
+  ]
 }
