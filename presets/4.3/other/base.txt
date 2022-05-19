@@ -1,0 +1,16 @@
+#$ TITLE: Base quad configuration
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: base
+#$ AUTHOR: Rob Haswell / Mopatop
+#$ DESCRIPTION: Base configuration for all personal quads
+
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+
+# serial
+serial 1 1 115200 57600 0 115200
+
+# rxfail
+rxfail 6 s 1500
+
