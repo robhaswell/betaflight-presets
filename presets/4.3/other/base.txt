@@ -7,6 +7,7 @@
 #$ DESCRIPTION: Base configuration for all personal quads
 
 #$ INCLUDE: presets/4.3/rates/defaults.txt
+#$ INCLUDE: presets/4.3/modes/defaults.txt
 
 # serial
 serial 1 1 115200 57600 0 115200
