@@ -1,0 +1,12 @@
+#$ TITLE: Mopatop's HDZero settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: hdzero
+#$ AUTHOR: Rob Haswell / Mopatop
+#$ DESCRIPTION: HDZero settings
+
+serial 3 131073 115200 57600 0 115200 # HDZero
+
+set osd_displayport_device = MSP
+set displayport_msp_serial = 1 # HDZero

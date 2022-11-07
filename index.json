@@ -137,22 +137,28 @@
     ],
     "category": [
       "MODES",
+      "OSD",
       "OTHER",
-      "RATES"
+      "RATES",
+      "RC_LINK"
     ],
     "author": [
       "Rob Haswell / Mopatop"
     ],
     "keywords": [
       "base",
+      "elrs",
+      "hdzero",
       "modes",
-      "rates"
+      "osd",
+      "rates",
+      "rc_smoothing"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
-      "hash": "c0a3489ae5b39fbc39a085951134c71b43a1c746a2c197cad8e61559418a1397",
+      "hash": "dee8c2e0b98f88d4f9c40d9f64d4e433d5780558e2cb6a847e0165e5b096540a",
       "title": "Mopatop's modes",
       "firmware_version": [
         "4.3"
@@ -166,8 +172,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/osd/osd.txt",
+      "hash": "f6994af4edc06566b08a9f9c9677f95b6be35051984449f9bffb960a8ca679cb",
+      "title": "Mopatop's osd",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "osd"
+      ],
+      "author": "Rob Haswell / Mopatop",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/base.txt",
-      "hash": "5ee90519d4ea426ad5abaed59cf36df941fe1890f3b1ea3b9023f24135b0dcf0",
+      "hash": "4798a4ce83735a65b7fc4d8b0209170c3386e43cf77a9c6e677d35dbbc302f96",
       "title": "Base quad configuration",
       "firmware_version": [
         "4.3"
@@ -176,6 +197,21 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "base"
+      ],
+      "author": "Rob Haswell / Mopatop",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/hdzero.txt",
+      "hash": "202c7e9668549878ea5cff2f21ba3b9438be5cf6ebe0d20d0d2dd2c81b7ba8e8",
+      "title": "Mopatop's HDZero settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "hdzero"
       ],
       "author": "Rob Haswell / Mopatop",
       "priority": 0
@@ -194,6 +230,22 @@
       ],
       "author": "Rob Haswell / Mopatop",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rc_smoothing/elrs500.txt",
+      "hash": "05e85cbe31d2b0b3f065dd2a9fac5a2405a42124f2fc40752e3389260ad0266d",
+      "title": "Mopatop's ELRS settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "rc_smoothing",
+        "elrs"
+      ],
+      "author": "Rob Haswell / Mopatop",
+      "priority": 10000000000
     }
   ]
 }

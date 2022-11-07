@@ -1,0 +1,25 @@
+#$ TITLE: Mopatop's osd
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: osd
+#$ AUTHOR: Rob Haswell / Mopatop
+#$ DESCRIPTION: General purpose OSD
+
+set osd_warn_link_quality = ON
+set osd_vbat_pos = 385
+set osd_rssi_pos = 353
+set osd_link_quality_pos = 2048
+set osd_tim_2_pos = 2515
+set osd_flymode_pos = 374
+set osd_craft_name_pos = 393
+set osd_warnings_pos = 14695
+set osd_avg_cell_voltage_pos = 2497
+set osd_stat_max_spd = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_max_esc_rpm = ON
+set osd_stat_min_link_quality = ON
+
