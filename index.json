@@ -157,7 +157,7 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/modes/defaults.txt",
+      "fullPath": "presets/4.3/modes/modes.txt",
       "hash": "dee8c2e0b98f88d4f9c40d9f64d4e433d5780558e2cb6a847e0165e5b096540a",
       "title": "Mopatop's modes",
       "firmware_version": [
@@ -188,7 +188,7 @@
     },
     {
       "fullPath": "presets/4.3/other/base.txt",
-      "hash": "4798a4ce83735a65b7fc4d8b0209170c3386e43cf77a9c6e677d35dbbc302f96",
+      "hash": "76f1afb4d536df55488ecbf9cfcb2b4e53e4252c7f73a58facf73db5109bd8d4",
       "title": "Base quad configuration",
       "firmware_version": [
         "4.3"
@@ -217,8 +217,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "f903b17f5c89003cb93c65d89e9b7600dbc78b9c01de9e033645fcec5162d272",
+      "fullPath": "presets/4.3/rates/rates.txt",
+      "hash": "7d9f1821130ee66e4f00c935e1eaf2cc74f14603de334c823c887c692c999ca1",
       "title": "Mopatop's rates",
       "firmware_version": [
         "4.3"

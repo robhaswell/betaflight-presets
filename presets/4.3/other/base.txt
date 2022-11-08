@@ -6,8 +6,8 @@
 #$ AUTHOR: Rob Haswell / Mopatop
 #$ DESCRIPTION: Base configuration for all personal quads
 
-#$ INCLUDE: presets/4.3/rates/defaults.txt
-#$ INCLUDE: presets/4.3/modes/defaults.txt
+#$ INCLUDE: presets/4.3/rates/rates.txt
+#$ INCLUDE: presets/4.3/modes/modes.txt
 #$ INCLUDE: presets/4.3/osd/osd.txt
 #$ INCLUDE: presets/4.3/rc_smoothing/elrs500.txt
 
@@ -40,14 +40,9 @@ feature OSD
 feature AIRMODE
 feature ANTI_GRAVITY
 
-# serial
-serial 0 64 115200 57600 0 115200
-
 # master
 set mag_hardware = NONE
 set baro_hardware = NONE
-set rc_smoothing_auto_factor = 25
-set rc_smoothing_auto_factor_throttle = 25
 set serialrx_provider = CRSF
 set dshot_bidir = ON
 set yaw_motors_reversed = ON
