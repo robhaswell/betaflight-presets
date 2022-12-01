@@ -9,4 +9,4 @@
 serial 3 131073 115200 57600 0 115200 # HDZero
 
 set osd_displayport_device = MSP
-set displayport_msp_serial = 1 # HDZero
+set displayport_msp_serial = 3 # HDZero
