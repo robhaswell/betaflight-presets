@@ -26,4 +26,3 @@ set osd_displayport_device = MSP
 set osd_canvas_width = 50
 set osd_canvas_height = 18
 set vcd_video_system = HD
--
