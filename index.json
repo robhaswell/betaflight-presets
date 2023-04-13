@@ -133,7 +133,8 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.3"
+      "4.3",
+      "4.4"
     ],
     "category": [
       "MODES",
@@ -233,10 +234,10 @@
     },
     {
       "fullPath": "presets/4.4/modes/modes.txt",
-      "hash": "569e2cbdf6c93c29155c37deab71ee59aca0df6833945e7d183c0156fb2574cd",
+      "hash": "6ccb4b7117fa7e83754796e2fe6d58a4e92deb21025fd700d8fda75f90af981e",
       "title": "Mopatop's modes",
       "firmware_version": [
-        "4.3"
+        "4.4"
       ],
       "category": "MODES",
       "status": "EXPERIMENTAL",
@@ -248,10 +249,10 @@
     },
     {
       "fullPath": "presets/4.4/osd/osd.txt",
-      "hash": "d53415a443e8f347fce912dda484562b2f9ccf7dd469d5fb29db8bd11e3853c0",
+      "hash": "3ce75077333a41b9276b2b75535d0a81723ec319bbc53f93256835d58cd2e3de",
       "title": "Mopatop's osd",
       "firmware_version": [
-        "4.3"
+        "4.4"
       ],
       "category": "OSD",
       "status": "EXPERIMENTAL",
@@ -263,10 +264,10 @@
     },
     {
       "fullPath": "presets/4.4/other/base.txt",
-      "hash": "bfeeb54ac6cc854b3a1aad7193ce2fbdaadb6abecd2955b3aba005d76b8dd9bc",
+      "hash": "6bfceb74f79f8a7a02ed3f29147aa8f985f51089ff84953a96d1d664dce64976",
       "title": "Base quad configuration",
       "firmware_version": [
-        "4.3"
+        "4.4"
       ],
       "category": "OTHER",
       "status": "EXPERIMENTAL",
@@ -278,10 +279,10 @@
     },
     {
       "fullPath": "presets/4.4/rates/rates.txt",
-      "hash": "6eccd426c535605a18d7827c7687addf424c43f6519601d867553712918f51b0",
+      "hash": "8e8181d6ae382dc4de04f11c52f497b9989c95444c118525a1bcf81650c01845",
       "title": "Mopatop's rates",
       "firmware_version": [
-        "4.3"
+        "4.4"
       ],
       "category": "RATES",
       "status": "EXPERIMENTAL",
@@ -293,10 +294,10 @@
     },
     {
       "fullPath": "presets/4.4/rc_smoothing/elrs500.txt",
-      "hash": "05e85cbe31d2b0b3f065dd2a9fac5a2405a42124f2fc40752e3389260ad0266d",
+      "hash": "153790d5e501968bb46bf8bdba15900f578c8efe302ee6e1cf4f1d8619006e3c",
       "title": "Mopatop's ELRS settings",
       "firmware_version": [
-        "4.3"
+        "4.4"
       ],
       "category": "RC_LINK",
       "status": "EXPERIMENTAL",

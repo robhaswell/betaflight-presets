@@ -1,5 +1,5 @@
 #$ TITLE: Base quad configuration
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: base
