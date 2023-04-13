@@ -1,0 +1,61 @@
+#$ TITLE: Base quad configuration
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: base
+#$ AUTHOR: Rob Haswell / Mopatop
+#$ DESCRIPTION: Base configuration for all personal quads
+
+#$ INCLUDE: presets/4.3/rates/rates.txt
+#$ INCLUDE: presets/4.3/modes/modes.txt
+#$ INCLUDE: presets/4.3/osd/osd.txt
+#$ INCLUDE: presets/4.3/rc_smoothing/elrs500.txt
+
+# feature
+feature -RX_PPM
+feature -INFLIGHT_ACC_CAL
+feature -RX_SERIAL
+feature -MOTOR_STOP
+feature -SERVO_TILT
+feature -SOFTSERIAL
+feature -GPS
+feature -RANGEFINDER
+feature -TELEMETRY
+feature -3D
+feature -RX_PARALLEL_PWM
+feature -RX_MSP
+feature -RSSI_ADC
+feature -LED_STRIP
+feature -DISPLAY
+feature -OSD
+feature -CHANNEL_FORWARDING
+feature -TRANSPONDER
+feature -AIRMODE
+feature -RX_SPI
+feature -ESC_SENSOR
+feature -ANTI_GRAVITY
+feature RX_SERIAL
+feature TELEMETRY
+feature OSD
+feature AIRMODE
+feature ANTI_GRAVITY
+
+# master
+set pilot_name = Mopatop
+set mag_hardware = NONE
+set baro_hardware = NONE
+set serialrx_provider = CRSF
+set dshot_bidir = ON
+set yaw_motors_reversed = ON
+set small_angle = 180
+set report_cell_voltage = ON
+set crsf_use_rx_snr = ON
+
+profile 0
+
+# profile 0
+set vbat_sag_compensation = 100
+
+# rxfail
+rxfail 6 s 1500
+

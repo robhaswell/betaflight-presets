@@ -1,0 +1,18 @@
+#$ TITLE: Mopatop's ELRS settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rc_smoothing, elrs
+#$ AUTHOR: Rob Haswell / Mopatop
+#$ DESCRIPTION: ELRS 500Hz setting
+
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+
+profile 0
+
+# profile 0
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 3
+set feedforward_boost = 18
