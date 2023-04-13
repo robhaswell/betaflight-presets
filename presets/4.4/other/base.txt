@@ -6,10 +6,10 @@
 #$ AUTHOR: Rob Haswell / Mopatop
 #$ DESCRIPTION: Base configuration for all personal quads
 
-#$ INCLUDE: presets/4.3/rates/rates.txt
-#$ INCLUDE: presets/4.3/modes/modes.txt
-#$ INCLUDE: presets/4.3/osd/osd.txt
-#$ INCLUDE: presets/4.3/rc_smoothing/elrs500.txt
+#$ INCLUDE: presets/4.4/rates/rates.txt
+#$ INCLUDE: presets/4.4/modes/modes.txt
+#$ INCLUDE: presets/4.4/osd/osd.txt
+#$ INCLUDE: presets/4.4/rc_smoothing/elrs500.txt
 
 # feature
 feature -RX_PPM
@@ -49,7 +49,6 @@ set dshot_bidir = ON
 set yaw_motors_reversed = ON
 set small_angle = 180
 set report_cell_voltage = ON
-set crsf_use_rx_snr = ON
 
 profile 0
 

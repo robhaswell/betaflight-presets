@@ -264,7 +264,7 @@
     },
     {
       "fullPath": "presets/4.4/other/base.txt",
-      "hash": "6bfceb74f79f8a7a02ed3f29147aa8f985f51089ff84953a96d1d664dce64976",
+      "hash": "dc562484ae1d7284e30efc111c172f4f78450bc37b63912ebd79a52d6fd38400",
       "title": "Base quad configuration",
       "firmware_version": [
         "4.4"
