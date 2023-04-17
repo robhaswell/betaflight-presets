@@ -11,6 +11,9 @@
 #$ INCLUDE: presets/4.4/osd/osd.txt
 #$ INCLUDE: presets/4.4/rc_smoothing/elrs500.txt
 
+# beacon
+beacon RX_SET
+
 # feature
 feature -RX_PPM
 feature -INFLIGHT_ACC_CAL
@@ -49,6 +52,7 @@ set dshot_bidir = ON
 set yaw_motors_reversed = ON
 set small_angle = 180
 set report_cell_voltage = ON
+set crash_recovery = ON
 
 profile 0
 
